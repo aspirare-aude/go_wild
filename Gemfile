@@ -13,6 +13,7 @@ gem 'flowplayer'
 gem "twitter-bootstrap-rails"
 gem 'ngmin-rails'
 gem 'jquery-ui-rails'
+gem 'sass', '3.2.13'
 
 group :development, :test do
   gem 'sqlite3', '1.3.8'
