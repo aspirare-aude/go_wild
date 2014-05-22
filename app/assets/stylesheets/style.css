@@ -32,18 +32,12 @@
 	position: absolute;
 	width: 150px;
 	height:150px;
-	left: 10px;
-	background-color:#2E0854
-;
-			
-	px;
 	top: 10px;
 	left: 10px;
 	text-align: center;
 	line-height: 150px;
-	color: #66CCCC
-;
-	text-shadow: 0px 1px 1px #000;
+    color: rgba(27,54,81,0.8);
+    text-shadow: 0px 1px 1px rgba(255,255,255,0.6);
 	font-size: 24px;
 	opacity: 0;
 	filter: alpha(opacity=0); /* internet explorer */
@@ -86,9 +80,8 @@
 }
 .lb-overlay > div{
 	position: relative;
-	color/
-    ------leeeeerr
-	opacity: 0;
+    color: rgba(27,54,81,0.8);
+    opacity: 0;
 	filter: alpha(opacity=0); /* internet explorer */
     -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=0)"; /*IE8*/
 	width: 550px;
@@ -210,14 +203,3 @@ x:-o-prefocus, .lb-overlay img {
     height: 100%;
 }
 
-
-
-.show-code 
-{
-  
-  display: block;
-  font-size:  %;
-  margin: 1em 0;}
-  
-  
-   /*lightbox end*/
