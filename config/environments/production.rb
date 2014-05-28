@@ -46,7 +46,7 @@ MyRiaApp::Application.configure do
   # config.action_controller.asset_host = "http://assets.example.com"
 
   # Precompile additional assets (application.js, application.css, and all non-JS/CSS are already added)
-   config.assets.precompile += %w( demo.css style_countries.css style.css custom.css demoslice.css slicebox.css modernizr.custom.46884.js main.css rps.css countries.js  )
+   config.assets.precompile += %w( demo.css style_countries.css style.css custom.css demoslice.css slicebox.css modernizr.custom.46884.js main.css rps.css countries.js canvasjs.min.js games.js jquery.slicebox.js  )
 
   # Disable delivery errors, bad email addresses will be ignored
   # config.action_mailer.raise_delivery_errors = false

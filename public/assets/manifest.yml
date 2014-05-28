@@ -159,6 +159,14 @@ thumbs/css3dimg4.jpg: thumbs/css3dimg4-99c4d4a72ae52471706c7e01c9394655.jpg
 thumbs/css3dimg4/index.jpg: thumbs/css3dimg4-99c4d4a72ae52471706c7e01c9394655.jpg
 application.js: application-cde6fb5ce3a280d8ef26bcf0968c242e.js
 application/index.js: application-cde6fb5ce3a280d8ef26bcf0968c242e.js
+canvasjs.min.js: canvasjs.min-82e55c4478845a909fa0e8ab645defab.js
+canvasjs/index.min.js: canvasjs.min-82e55c4478845a909fa0e8ab645defab.js
+countries.js: countries-8db4a653de4d2279d35685fe2729d433.js
+countries/index.js: countries-8db4a653de4d2279d35685fe2729d433.js
+games.js: games-1b13569e9620782f423d4cd3ce931750.js
+games/index.js: games-1b13569e9620782f423d4cd3ce931750.js
+jquery.slicebox.js: jquery.slicebox-fb5cd6f82072009eae6478ca40885066.js
+jquery/index.slicebox.js: jquery.slicebox-fb5cd6f82072009eae6478ca40885066.js
 modernizr.custom.46884.js: modernizr.custom.46884-a958c60734fd4f815eb963bdb3a77d87.js
 modernizr/index.custom.46884.js: modernizr.custom.46884-a958c60734fd4f815eb963bdb3a77d87.js
 application.css: application-518e160581cb03c7c6f7f8abfde7cabb.css
@@ -169,6 +177,10 @@ demo.css: demo-7812d105521bdf25ac251eeeb4144dee.css
 demo/index.css: demo-7812d105521bdf25ac251eeeb4144dee.css
 demoslice.css: demoslice-3afc29002292ab325b27e1447a425023.css
 demoslice/index.css: demoslice-3afc29002292ab325b27e1447a425023.css
+main.css: main-920ebaa3fa133d267677b2d5040b0287.css
+main/index.css: main-920ebaa3fa133d267677b2d5040b0287.css
+rps.css: rps-2e552499796e93491e0f1afa4ada888a.css
+rps/index.css: rps-2e552499796e93491e0f1afa4ada888a.css
 slicebox.css: slicebox-387cb67f62fd81bdad523a9c99aedbfa.css
 slicebox/index.css: slicebox-387cb67f62fd81bdad523a9c99aedbfa.css
 style.css: style-ccf3e76a54b786233b5d7279d973d3c9.css

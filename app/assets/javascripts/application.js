@@ -24,6 +24,8 @@
 //= require jquery
 //= require jquery_ujs
 //= require angular
+//= countries
+//= games
 //= require angular-route
 //= require angular-resource
 //= require jquery.ui.all
