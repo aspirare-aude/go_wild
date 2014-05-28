@@ -11,8 +11,8 @@ full/14.jpg: full/14-cfd8f3f347ff2eecb08618f415f7ba8f.jpg
 full/14/index.jpg: full/14-cfd8f3f347ff2eecb08618f415f7ba8f.jpg
 full/15.jpg: full/15-8aa51e461deb5fdb5ebbcb46382574c6.jpg
 full/15/index.jpg: full/15-8aa51e461deb5fdb5ebbcb46382574c6.jpg
-full/16.png: full/16-0ede06f17458c1a7375621ae9cbd6d54.png
-full/16/index.png: full/16-0ede06f17458c1a7375621ae9cbd6d54.png
+full/16.jpg: full/16-0ede06f17458c1a7375621ae9cbd6d54.jpg
+full/16/index.jpg: full/16-0ede06f17458c1a7375621ae9cbd6d54.jpg
 full/2.jpg: full/2-8473b1bbac54c012e650659a21be0115.jpg
 full/2/index.jpg: full/2-8473b1bbac54c012e650659a21be0115.jpg
 full/3.jpg: full/3-b29a9d57a6c4e8288c5892678e0c2bab.jpg
@@ -159,8 +159,8 @@ thumbs/css3dimg4.jpg: thumbs/css3dimg4-99c4d4a72ae52471706c7e01c9394655.jpg
 thumbs/css3dimg4/index.jpg: thumbs/css3dimg4-99c4d4a72ae52471706c7e01c9394655.jpg
 application.js: application-cde6fb5ce3a280d8ef26bcf0968c242e.js
 application/index.js: application-cde6fb5ce3a280d8ef26bcf0968c242e.js
-application.css: application-cce07fe7473502d6c34b16d23993b03e.css
-application/index.css: application-cce07fe7473502d6c34b16d23993b03e.css
+application.css: application-518e160581cb03c7c6f7f8abfde7cabb.css
+application/index.css: application-518e160581cb03c7c6f7f8abfde7cabb.css
 quiz-list.html: quiz-list-7f7175e6920c4480998f16b193cdc0c3.html
 quiz-list/index.html: quiz-list-7f7175e6920c4480998f16b193cdc0c3.html
 jquery.min.map: jquery.min-388372ef65cc311f6a3df4a6ceac8d22.map
