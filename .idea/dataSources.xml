@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="1729198442">
+  <component name="DataSourceManagerImpl" format="xml" hash="2114722525">
     <data-source source="LOCAL" name="Rails my_ria_app: development" uuid="58848dba-dfb6-4aeb-a1c0-741367c84477">
       <driver-ref>sqlite.xerial</driver-ref>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
@@ -11,6 +11,12 @@
       <driver-ref>sqlite.xerial</driver-ref>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
       <jdbc-url>jdbc:sqlite:C:\Masters\RIA_project\Rich-internet-application-final-project\go_wild\db\test.sqlite3</jdbc-url>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails my_ria_app: production" uuid="eaaab006-f003-4f51-be3d-fc7b190c5ec2">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:C:\Masters\RIA_project\Rich-internet-application-final-project\go_wild\db\production.sqlite3</jdbc-url>
       <libraries />
     </data-source>
   </component>

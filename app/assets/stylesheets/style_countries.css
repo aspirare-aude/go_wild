@@ -1,12 +1,11 @@
 @font-face{
 	font-family:"arista";
-	src:url("../fonts/Arista.ttf") format("truetype");
+
 	font-weight:normal;
     font-style:normal;
 }
 @font-face{
 	font-family:"imp";
-	src:url("../fonts/Impact Label Reversed.ttf") format("truetype");
 	font-weight:normal;
     font-style:normal;
 }
