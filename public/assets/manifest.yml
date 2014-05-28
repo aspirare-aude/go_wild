@@ -161,6 +161,8 @@ application.js: application-cde6fb5ce3a280d8ef26bcf0968c242e.js
 application/index.js: application-cde6fb5ce3a280d8ef26bcf0968c242e.js
 application.css: application-518e160581cb03c7c6f7f8abfde7cabb.css
 application/index.css: application-518e160581cb03c7c6f7f8abfde7cabb.css
+demo.css: demo-7812d105521bdf25ac251eeeb4144dee.css
+demo/index.css: demo-7812d105521bdf25ac251eeeb4144dee.css
 quiz-list.html: quiz-list-7f7175e6920c4480998f16b193cdc0c3.html
 quiz-list/index.html: quiz-list-7f7175e6920c4480998f16b193cdc0c3.html
 jquery.min.map: jquery.min-388372ef65cc311f6a3df4a6ceac8d22.map
