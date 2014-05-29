@@ -1,47 +1,47 @@
 $(document).ready(main);
 
-var numCorrectas=0;
-var numIncorrectas=0;
+var numCorrect=0;
+var numIncorrect=0;
 function main(){
 
-    var res =$(".respuesta");
+    var res =$(".answer");
     res.draggable();
-    $(".preg").droppable({drop:dropPregunta});
+    $(".preg").droppable({drop:dropQuestion});
 
 }
 
-function dropPregunta(event,ui){
-    var contPregunta =$(this);
-    var respuesta = ui.draggable;
+function dropQuestion(event,ui){
+    var contQuestion =$(this);
+    var answer = ui.draggable;
 
-    var correcta = contPregunta.text().toLowerCase();
+    var correcta = contQuestion.text().toLowerCase();
     correcta = correcta.trim();
-    var pos = contPregunta.position();
+    var pos = contQuestion.position();
 
-    if(correcta==respuesta.attr("alt")){
-        contPregunta.append("<img src='"+respuesta.attr("src")+"' class='rDrop' />" );
-         numCorrectas++;
+    if(correcta==answer.attr("alt")){
+        contQuestion.append("<img src='"+answer.attr("src")+"' class='rDrop' />" );
+         numCorrect++;
 
     }else{
-        contPregunta.append("<img src='"+respuesta.attr("src")+"' class='rDrop' />");
-         numIncorrectas++;
+        contQuestion.append("<img src='"+answer.attr("src")+"' class='rDrop' />");
+         numIncorrect++;
     }
 
-    respuesta.draggable("destroy");
-    contPregunta.droppable("destroy");
-    comprobarFinal();
-    respuesta.remove();
+    answer.draggable("destroy");
+    contQuestion.droppable("destroy");
+    checkFinal();
+    answer.remove();
 }
-function comprobarResultados(){
+function checkResult(){
     $(".ok,.inco").fadeIn("slow");
-    $("#resultados").html("Correct answers:     "+numCorrectas+"<br />"+"Incorrect answers:    "+numIncorrectas);
+    $("#resultados").html("Correct answers:     "+numCorrect+"<br />"+"Incorrect answers:    "+numIncorrect);
 
 }
 
-function comprobarFinal(){
-    resul = numCorrectas+numIncorrectas;
+function checkFinal(){
+    resul = numCorrect+numIncorrect;
     if(resul ==6){
 
-        comprobarResultados();
+        checkResult();
     }
 }

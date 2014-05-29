@@ -9,7 +9,7 @@
 	font-weight:normal;
     font-style:normal;
 }
-#preguntas{
+#question{
 	width: 66em;
 	height: 35em;
 	border: 2px solid #000;
@@ -19,7 +19,7 @@
 
 
 
-#preguntas article {
+#question article {
 
 	display: inline-block;
 	border: 1px solid #000;
@@ -33,7 +33,7 @@
 	background:rgba(255,255,255,0.8);
 	vertical-align: top;
 }
-#preguntasMonumentos{
+#questionMonumentos{
 	width: 66em;
 	height: 17em;
 	border: 2px solid #000;
@@ -41,7 +41,7 @@
 	overflow-y: scroll;
 }
 
-#preguntasMonumentos article {
+#questionMonumentos article {
 
 	display: inline-block;
 	border: 1px solid #000;
@@ -56,11 +56,11 @@
 	vertical-align: top;
 }
 
-#preguntas .pregMonumento{
+#question .pregMonumento{
 	height: 15em;
 }
 
-#respuestas{
+#answer{
 	position:relative;
 	width: 66em;
 	border:1px solid black;
@@ -70,7 +70,7 @@
 
 }
 
-#respuestas img{
+#answer img{
 	margin-left: 2em;
 	margin-top: 1em;
 	cursor: move;
@@ -88,7 +88,7 @@
 	background: rgba(255,255,255,0.6);
 }
 
-#preguntas,#resultados,#preguntasMonumentos{
+#question,#resultados,#questionMonumentos{
 	display: inline-block;
 	vertical-align: top;
 }

@@ -4,8 +4,8 @@
   <title>MyRiaApp</title>
   <link href="//releases.flowplayer.org/5.4.0/skin/minimalist.css" rel="stylesheet">
 
-  <%= stylesheet_link_tag    "application", :media => "all" %>
-  <%= javascript_include_tag "application" %>
+  <%= stylesheet_link_tag    "application", :media => "all" , :debug => false %>
+  <%= javascript_include_tag "application" , :debug => false %>
 
   <script src="//releases.flowplayer.org/5.4.0/flowplayer.min.js"></script>
   <%= csrf_meta_tags %>
@@ -39,6 +39,6 @@
 <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.6/angular-resource.min.js"></script>
 <%= yield %>
 
-<%= javascript_include_tag "application" %>
+<%= javascript_include_tag "application", :debug => false  %>
 </body>
 </html>
