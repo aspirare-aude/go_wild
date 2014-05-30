@@ -14,7 +14,7 @@ gem "twitter-bootstrap-rails"
 gem 'ngmin-rails'
 gem 'jquery-ui-rails'
 gem 'sass', '3.2.13'
-
+gem 'bootstrap-sass-rails'
 group :development, :test do
   gem 'sqlite3', '1.3.8'
   gem 'jasminerice'

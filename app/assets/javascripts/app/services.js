@@ -9,7 +9,7 @@ angular.module('myApp.services', [])
              'http://www.bbc.co.uk/newsround/animals/rss.xml'
          )
          ).then(function(data, status) {
-             // Huffpost data comes back as
+             // data comes back as
              // data.data.responseData.feed.entries
              if (data.status === 200)
                  d.resolve(data.data.responseData.feed.entries);

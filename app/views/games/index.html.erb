@@ -1,47 +1,89 @@
 <%= stylesheet_link_tag "style_countries" %>
 <%= javascript_include_tag "countries" %>
-
-
 <section id="question">
-  <article class="preg">
-    Japan
-  </article>
 
-  <article class="preg">
-    Usa
-  </article>
-
-  <article class="preg">
-    France
-  </article>
-
-  <article class="preg">
-    England
-  </article>
-
-  <article class="preg">
-    China
-  </article>
-
-  <article class="preg">
-    Germany
-  </article>
+<div class="row-fluid">
 
 
+      <div class="span2">
+      <article class="preg">
+        Japan
+      </article>
+      </div>
 
-  <div id="answer">
-    <%= image_tag "level1/china.png", :class => "answer" , :alt => "china"%>
-    <%= image_tag "level1/germany.png", :class => "answer" , :alt => "germany"%>
-    <%= image_tag "level1/england.png", :class => "answer", :alt => "england" %>
-    <%= image_tag "level1/japan.png", :class => "answer" , :alt => "japan"%>
-    <%= image_tag "level1/usa.png", :class => "answer" , :alt => "usa"%>
-    <%= image_tag "level1/france.png", :class => "answer" , :alt => "france"%>
+      <div class="span2">
+      <article class="preg">
+        Usa
+      </article>
+      </div>
 
-  </div>
+        <div class="span2">
+        <article class="preg">
+        France
+      </article>
+        </div>
 
-</section>
-<div id="resultados">
+      <div class="span2">
+      <article class="preg">
+        England
+      </article>
+      </div>
+
+      <div class="span2">
+      <article class="preg">
+        China
+      </article>
+      </div>
+
+          <div class="span2">
+          <article class="preg">
+        Germany
+      </article>
+          </div>
+
 
 </div>
 
+
+
+<div class="row-fluid">
+
+      <div id="answer">
+            <div class="span2">
+            <%= image_tag "level1/china.png", :class => "answer" , :alt => "china"%>
+            </div>
+            <div class="span2">
+              <%= image_tag "level1/germany.png", :class => "answer" , :alt => "germany"%>
+            </div>
+            <div class="span2">
+                <%= image_tag "level1/england.png", :class => "answer", :alt => "england" %>
+            </div>
+
+            <div class="span2">
+                  <%= image_tag "level1/japan.png", :class => "answer" , :alt => "japan"%>
+            </div>
+
+            <div class="span2">
+                    <%= image_tag "level1/usa.png", :class => "answer" , :alt => "usa"%>
+            </div>
+
+            <div class="span2">
+                      <%= image_tag "level1/france.png", :class => "answer" , :alt => "france"%>
+            </div>
+
+
+      </div>
+
+</div>
+
+
+  <div class="row-fluid">
+
+  <div id="resultados">
+
+</div>
+</div>
+
+
+</section>
 
