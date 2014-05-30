@@ -1,4 +1,10 @@
 ---
+ajax_images/desert.jpg: ajax_images/desert-8d42c3d39f6e2d16f8d3c3bfd8e21d16.jpg
+ajax_images/desert/index.jpg: ajax_images/desert-8d42c3d39f6e2d16f8d3c3bfd8e21d16.jpg
+ajax_images/jungle.jpg: ajax_images/jungle-11dd9ab37dca757cd7feb6e9ecc62004.jpg
+ajax_images/jungle/index.jpg: ajax_images/jungle-11dd9ab37dca757cd7feb6e9ecc62004.jpg
+ajax_images/savanna.jpg: ajax_images/savanna-608d5c07a412bc9186b6aaab09ac0d35.jpg
+ajax_images/savanna/index.jpg: ajax_images/savanna-608d5c07a412bc9186b6aaab09ac0d35.jpg
 full/1.jpg: full/1-e46b35389d11941b659db5bedac9a162.jpg
 full/1/index.jpg: full/1-e46b35389d11941b659db5bedac9a162.jpg
 full/10.jpg: full/10-3e80ae84f29cd6ad7286698040bccfa7.jpg
@@ -119,6 +125,8 @@ level1/usa.png: level1/usa-05199b3d95e0c7a6311fccfc71e5926c.png
 level1/usa/index.png: level1/usa-05199b3d95e0c7a6311fccfc71e5926c.png
 rails.png: rails-a3386665c05a2d82f711a4aaa72d247c.png
 rails/index.png: rails-a3386665c05a2d82f711a4aaa72d247c.png
+savanna.jpg: savanna-608d5c07a412bc9186b6aaab09ac0d35.jpg
+savanna/index.jpg: savanna-608d5c07a412bc9186b6aaab09ac0d35.jpg
 thumbs/1.jpg: thumbs/1-3fb3495a648b2d58cf66d15f7484c20a.jpg
 thumbs/1/index.jpg: thumbs/1-3fb3495a648b2d58cf66d15f7484c20a.jpg
 thumbs/10.jpg: thumbs/10-bc8aed4cfb5e731187af2869290a0414.jpg
@@ -157,6 +165,8 @@ thumbs/css3dimg3.jpg: thumbs/css3dimg3-01bc5ab272e596524743e4ceeb097beb.jpg
 thumbs/css3dimg3/index.jpg: thumbs/css3dimg3-01bc5ab272e596524743e4ceeb097beb.jpg
 thumbs/css3dimg4.jpg: thumbs/css3dimg4-99c4d4a72ae52471706c7e01c9394655.jpg
 thumbs/css3dimg4/index.jpg: thumbs/css3dimg4-99c4d4a72ae52471706c7e01c9394655.jpg
+app/habitats.json: app/habitats-dffe98a29bab8f8e380c900d440138ce.json
+app/habitats/index.json: app/habitats-dffe98a29bab8f8e380c900d440138ce.json
 application.js: application-e1aa14515a7a9c702cf6ef819ad843c7.js
 application/index.js: application-e1aa14515a7a9c702cf6ef819ad843c7.js
 canvasjs.min.js: canvasjs.min-82e55c4478845a909fa0e8ab645defab.js
@@ -165,12 +175,14 @@ countries.js: countries-cabc9799372b3576f638220a933e7c4d.js
 countries/index.js: countries-cabc9799372b3576f638220a933e7c4d.js
 games.js: games-1b13569e9620782f423d4cd3ce931750.js
 games/index.js: games-1b13569e9620782f423d4cd3ce931750.js
+habitats.json: habitats-cba81e9f311016a5180c861f54f44e27.json
+habitats/index.json: habitats-cba81e9f311016a5180c861f54f44e27.json
 jquery.slicebox.js: jquery.slicebox-fb5cd6f82072009eae6478ca40885066.js
 jquery/index.slicebox.js: jquery.slicebox-fb5cd6f82072009eae6478ca40885066.js
 modernizr.custom.46884.js: modernizr.custom.46884-a958c60734fd4f815eb963bdb3a77d87.js
 modernizr/index.custom.46884.js: modernizr.custom.46884-a958c60734fd4f815eb963bdb3a77d87.js
-application.css: application-d162204dcb9569f7c701e6d9737becae.css
-application/index.css: application-d162204dcb9569f7c701e6d9737becae.css
+application.css: application-ad166d14751c63cadafdae12a8801eee.css
+application/index.css: application-ad166d14751c63cadafdae12a8801eee.css
 custom.css: custom-521f5d968cf40141f4b638554e550fdd.css
 custom/index.css: custom-521f5d968cf40141f4b638554e550fdd.css
 demo.css: demo-7812d105521bdf25ac251eeeb4144dee.css
