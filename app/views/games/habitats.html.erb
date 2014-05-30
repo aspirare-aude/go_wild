@@ -1,1 +1,78 @@
-<h1>hi enda ya bollox</h1>
+<script type="text/javascript">
+    function savanna()
+    {
+        var xmlhttp = new XMLHttpRequest();
+        xmlhttp.onreadystatechange=function()
+        {
+            if (xmlhttp.readyState==4 && xmlhttp.status==200)
+            {
+                var JSONObject = JSON.parse(xmlhttp.responseText);
+                document.getElementById("name").innerHTML = "<span style='font-weight:bold'>Name: </span>" + JSONObject.savannaName;
+                document.getElementById("category").innerHTML = "<span style='font-weight:bold'>Habitate Type: </span>" +  JSONObject.savannaType;
+                document.getElementById("bio").innerHTML = "<span style='font-weight:bold'>About Habitate: </span>" +  JSONObject.aboutSavanna;
+            }
+        }
+        xmlhttp.open("GET","../assets/habitats.json",true);
+        xmlhttp.send();
+    }
+
+    function jungle()
+    {
+        var xmlhttp = new XMLHttpRequest();
+        xmlhttp.onreadystatechange=function()
+        {
+            if (xmlhttp.readyState==4 && xmlhttp.status==200)
+            {
+                var JSONObject = JSON.parse(xmlhttp.responseText);
+                document.getElementById("name").innerHTML = "<span style='font-weight:bold'>Name: </span>" + JSONObject.jungleName;
+                document.getElementById("category").innerHTML = "<span style='font-weight:bold'>Category: </span>" + JSONObject.jungleType;
+                document.getElementById("bio").innerHTML = "<span style='font-weight:bold'>Biography: </span>" + JSONObject.aboutJungle;
+            }
+        }
+        xmlhttp.open("GET","../assets/habitats.json",true);
+        xmlhttp.send();
+    }
+
+    function desert()
+    {
+        var xmlhttp = new XMLHttpRequest();
+        xmlhttp.onreadystatechange=function()
+        {
+            if (xmlhttp.readyState==4 && xmlhttp.status==200)
+            {
+                var JSONObject = JSON.parse(xmlhttp.responseText);
+                document.getElementById("name").innerHTML = "<span style='font-weight:bold'>Name: </span>" + JSONObject.desertName;
+                document.getElementById("category").innerHTML = "<span style='font-weight:bold'>Category: </span>" + JSONObject.desertType;
+                document.getElementById("bio").innerHTML = "<span style='font-weight:bold'>Biography: </span>" + JSONObject.aboutDesert;
+            }
+        }
+        xmlhttp.open("GET","../assets/habitats.json",true);
+        xmlhttp.send();
+    }
+</script>
+
+<div>
+  <div class="row">
+    <p id="habitatsHeader">Click on a Picture to Learn about the Habitat</p>
+  </div>
+</div>
+
+<div class="row">
+  <div id="habitatsImages">
+    <img class="span4 habitatsPictures" src="../assets/ajax_images/savanna.jpg" alt="Savanna Image" title="Savanna" width="300" height="200" onclick="savanna()" />
+
+
+    <img class="span4 habitatsPictures" src="../assets/ajax_images/jungle.jpg" alt="Jungle Image" title="Jungle" width="300" height="200" onclick="jungle()" />
+
+
+    <img class="span4 habitatsPictures" src="../assets/ajax_images/desert.jpg" alt="Desert Image" title="Desert" width="300" height="200" onclick="desert()" />
+  </div>
+</div>
+
+
+<div id="textArea">
+  <p class="habitatText" id="name"></p>
+  <p class="habitatText" id="category"></p>
+  <p class="habitatText" id="bio"></p>
+</div>
+

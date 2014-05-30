@@ -1,4 +1,5 @@
 class ScreencastsController < ApplicationController
+  before_filter :authenticate_user!
 
   def index
     render json: Screencast.all
